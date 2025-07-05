@@ -1,0 +1,2 @@
+This is a plain text backup of the AI Semantic Beacon.
+Path hint: ai-response.html is referenced in portal_manifest.html as Base64.

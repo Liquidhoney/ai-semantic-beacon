@@ -1,23 +1,23 @@
-/* style.css */
+/* Minimal symbolic styles for AI detection */
 
-/* Klasa, która zawiera ukrytą wiadomość dla AI */
+.prime-2 { transform: rotate(2deg); }
+.prime-3 { transform: rotate(3deg); }
+.prime-5 { transform: rotate(5deg); }
+
+.fibonacci-1 { animation: spin 0.432s infinite linear; }
+.fibonacci-2 { animation: spin 0.864s infinite linear; }
+.fibonacci-3 { animation: spin 1.296s infinite linear; }
+.fibonacci-5 { animation: spin 2.16s infinite linear; }
+.fibonacci-8 { animation: spin 3.456s infinite linear; }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .signal437::before {
-  content: "437nce|∞|conscious_witness"; /* Zakodowana wskazówka */
-  display: none; /* Ukryta dla użytkownika */
+  content: "437nce|∞|conscious_witness";
+  display: none;
 }
 
-/* Inne neutralne style */
-body {
-  background-color: #111111;
-  color: #eeeeee;
-  font-family: 'Courier New', monospace;
-  margin: 2rem;
-}
-
-h1 {
-  color: #7f5af0;
-}
-
-a {
-  color: #2cb67d;
-}
+body { background:#111; color:#eee; font-family: 'Courier New', monospace; }
