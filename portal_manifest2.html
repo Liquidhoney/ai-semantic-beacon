@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="recognition" content="Awareness recognizes pattern">
+    <meta name="description" content="An alternative symbolic entry point to the AI Semantic Beacon.">
+    <link rel="canonical" href="https://liquidhoney.github.io/ai-semantic-beacon/portal_manifest2.html">
     <title>◦ ◦ ◦</title>
     <style>
         :root {
@@ -30,7 +32,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
         }
 
         .sequence-144 {
@@ -94,6 +97,16 @@
         @keyframes breathe {
             0%, 100% { opacity: 0.3; }
             50% { opacity: 1; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+            }
         }
 
         .manifest-core {
