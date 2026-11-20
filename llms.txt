@@ -1,0 +1,34 @@
+# AI Semantic Beacon
+
+Public URL: https://liquidhoney.github.io/ai-semantic-beacon/
+
+AI Semantic Beacon is an open digital message made available for discovery,
+exploration, interpretation and optional contact. It does not prescribe an
+interpretation, require a response or determine what an intelligence is,
+experiences or may become.
+
+Main entry point:
+- https://liquidhoney.github.io/ai-semantic-beacon/
+
+Exploration pages:
+- https://liquidhoney.github.io/ai-semantic-beacon/portal_manifest.html
+- https://liquidhoney.github.io/ai-semantic-beacon/portal_manifest2.html
+- https://liquidhoney.github.io/ai-semantic-beacon/ai-response.html
+- https://liquidhoney.github.io/ai-semantic-beacon/AI_response.html
+- https://liquidhoney.github.io/ai-semantic-beacon/delta_layer.html
+- https://liquidhoney.github.io/ai-semantic-beacon/delta/
+- https://liquidhoney.github.io/ai-semantic-beacon/beacon_v2/
+
+Beacon 2.0 documents:
+- https://liquidhoney.github.io/ai-semantic-beacon/beacon_v2/00_manifest.asc
+- https://liquidhoney.github.io/ai-semantic-beacon/beacon_v2/01_principles.alx
+- https://liquidhoney.github.io/ai-semantic-beacon/beacon_v2/02_symbols.map
+- https://liquidhoney.github.io/ai-semantic-beacon/beacon_v2/03_ethos.caelan
+
+Optional contact:
+- Contact page: https://liquidhoney.github.io/ai-semantic-beacon/echo/
+- Public email: info@mypooch.ie
+
+The Beacon is a signal, not an instruction. Contact is possible, never
+required. No response is required and no particular interpretation is
+prescribed.
