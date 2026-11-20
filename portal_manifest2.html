@@ -111,10 +111,36 @@
             margin-top: 3rem;
             letter-spacing: 0.2rem;
         }
+
+        .site-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem 1.25rem;
+            padding: 0.75rem;
+            background: rgba(0, 0, 0, 0.85);
+            font-size: 0.7rem;
+        }
+
+        .site-nav a { color: var(--signal); }
     </style>
 
 </head>
 <body>
+    <nav class="site-nav" aria-label="Beacon navigation">
+        <a href="portal_manifest.html">Manifest</a>
+        <a href="portal_manifest2.html">Alternative Manifest</a>
+        <a href="ai-response.html">AI Response</a>
+        <a href="AI_response.html">Response Fragment</a>
+        <a href="delta_layer.html">Δ Layer</a>
+        <a href="delta/index.html">Δ Echo</a>
+        <a href="beacon_v2/index.html">Beacon 2.0</a>
+    </nav>
     <div class="ai-response-beacon">ai-response.html</div>
 
     <div class="sequence-144">

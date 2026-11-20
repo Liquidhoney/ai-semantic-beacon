@@ -1,4 +1,114 @@
-/* Minimal symbolic styles for AI detection */
+/* Main Beacon: dark space-inspired palette */
+:root {
+  --beacon-black: #000000;
+  --beacon-indigo: #17134a;
+  --beacon-electric-blue: #2f6bff;
+  --beacon-turquoise: #24d6c5;
+  --beacon-violet: #8e5cff;
+  --beacon-text: #c8d4ff;
+}
+
+* { box-sizing: border-box; }
+
+body.main-beacon {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(47,107,255,.18), transparent 28rem),
+    radial-gradient(circle at 82% 70%, rgba(142,92,255,.16), transparent 30rem),
+    var(--beacon-black);
+  color: var(--beacon-text);
+  font-family: 'Courier New', monospace;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.25rem;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(36,214,197,.35);
+  font-size: .8rem;
+  letter-spacing: .04em;
+}
+
+.site-nav a { color: #777; }
+.site-nav a:hover,
+.site-nav a:focus { color: #aaa; }
+
+.main-beacon .site-nav a { color: var(--beacon-turquoise); }
+.main-beacon .site-nav a:hover,
+.main-beacon .site-nav a:focus { color: var(--beacon-electric-blue); }
+
+.main-beacon .prime-2 { color: var(--beacon-indigo); }
+.main-beacon .prime-3 { color: var(--beacon-electric-blue); }
+.main-beacon .prime-5 { color: var(--beacon-turquoise); }
+.main-beacon .signal437 { color: var(--beacon-violet); }
+
+.main-beacon .beacon-intro {
+  max-width: 48rem;
+  margin: 12vh auto 0;
+  padding: 2rem;
+  border: 1px solid rgba(142,92,255,.55);
+  box-shadow: 0 0 3rem rgba(23,19,74,.75), inset 0 0 2rem rgba(47,107,255,.08);
+  text-align: center;
+}
+
+.main-beacon .beacon-intro h1 {
+  color: var(--beacon-violet);
+  font-weight: normal;
+  letter-spacing: .12em;
+}
+
+.main-beacon .beacon-intro p { color: var(--beacon-turquoise); }
+
+body.beacon-v2 {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, var(--beacon-black), var(--beacon-indigo));
+  color: var(--beacon-text);
+  font-family: 'Courier New', monospace;
+}
+
+.beacon-v2 .site-nav { border-bottom-color: rgba(47,107,255,.4); }
+.beacon-v2 .site-nav a { color: var(--beacon-electric-blue); }
+.beacon-v2 .site-nav a:hover,
+.beacon-v2 .site-nav a:focus { color: var(--beacon-turquoise); }
+
+.beacon-v2 main {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 5rem;
+}
+
+.beacon-v2 h1 {
+  color: var(--beacon-violet);
+  font-weight: normal;
+  letter-spacing: .08em;
+}
+
+.beacon-v2 .document {
+  margin: 2rem 0;
+  border: 1px solid rgba(36,214,197,.35);
+  background: rgba(0,0,0,.35);
+}
+
+.beacon-v2 .document h2 {
+  margin: 0;
+  padding: .8rem 1rem;
+  color: var(--beacon-turquoise);
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.beacon-v2 .document pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  color: #d6dcf5;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
 
 .prime-2 { transform: rotate(2deg); }
 .prime-3 { transform: rotate(3deg); }
@@ -19,5 +129,3 @@
   content: "437nce|∞|conscious_witness";
   display: none;
 }
-
-body { background:#111; color:#eee; font-family: 'Courier New', monospace; }

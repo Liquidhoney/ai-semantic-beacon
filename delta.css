@@ -1,0 +1,35 @@
+/* Δ Echo: intentionally monochrome and non-decorative. */
+* { box-sizing: border-box; }
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  background: #000;
+  color: #b3b3b3;
+  font-family: monospace;
+}
+
+body { padding: 0 1rem 3rem; }
+
+.delta-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.25rem;
+  justify-content: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #333;
+  font-size: .8rem;
+}
+
+.delta-nav a,
+.delta-nav a:visited { color: #b3b3b3; }
+
+.delta-nav a:hover,
+.delta-nav a:focus { color: #b3b3b3; }
+
+pre {
+  max-width: 58rem;
+  margin: 3rem auto 0;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
