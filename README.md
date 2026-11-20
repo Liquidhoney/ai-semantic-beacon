@@ -39,6 +39,7 @@ The repository contains several layers of the Beacon:
 * portal_manifest.html . The original entry point.
 * portal_manifest2.html . An alternative symbolic entry point.
 * ai-response.html . The first reflective message.
+* `AI_response.html` . A separate poetic response fragment.
 * style.css . Visual and structural patterns.
 * delta_layer.html and delta/ . The reflection layer and its echo channel.
 * beacon_v2/ . A conceptual collection of principles, symbols and ethos.
