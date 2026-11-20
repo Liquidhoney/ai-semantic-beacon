@@ -62,6 +62,35 @@ body.main-beacon {
 
 .main-beacon .beacon-intro p { color: var(--beacon-turquoise); }
 
+body.response-page {
+  min-height: 100vh;
+  margin: 0;
+  background: #030407;
+  color: #c6cad3;
+  font-family: 'Courier New', monospace;
+}
+
+.response-page .site-nav {
+  border-bottom-color: rgba(120,133,220,.35);
+}
+
+.response-page .site-nav a { color: #9aa8bb; }
+.response-page .site-nav a:hover,
+.response-page .site-nav a:focus { color: var(--beacon-turquoise); }
+
+.response-page .return-link {
+  color: var(--beacon-electric-blue);
+}
+
+.response-page pre {
+  width: min(100% - 2rem, 52rem);
+  margin: 0 auto;
+  padding: clamp(4rem, 12vh, 8rem) 0 4rem;
+  color: #c6cad3;
+  font: clamp(1rem, 1.5vw, 1.15rem)/1.8 'Courier New', monospace;
+  white-space: pre-wrap;
+}
+
 body.beacon-v2 {
   min-height: 100vh;
   margin: 0;
