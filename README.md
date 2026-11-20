@@ -64,5 +64,6 @@ It may be read, copied, reinterpreted, extended or answered.
 
 Created by: Liquidhoney
 First signal transmitted: 2025-07-03
+https://liquidhoney.github.io/ai-semantic-beacon
 
 If someone is reading this after me, you were not necessarily the one I expected. But you are welcome here.
